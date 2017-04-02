@@ -31,4 +31,5 @@
   client:
     serviceUrl:
       defaultZone: http://192.168.0.248:8761/eureka/
-      
+    registerWithEureka: false
+    fetchRegistry:false
